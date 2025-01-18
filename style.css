@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: poppins;
+}
+
+.container {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.header-logo {
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+.url ul {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    border-right: 2px solid rgb(221, 219, 219);
+}
+
+.url a {
+    text-decoration: none;
+    color: black;
+    padding-inline: 15px; 
+}
+
+.contact-section {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    /* border: 2px solid red; */
+}
+
+
+
+.hero-section {
+    display: flex;
+    margin-top: 100px;
+}
+
+.hero-section .text-area {
+    font-size: 70px; 
+    font-weight: 500;
+    padding-top: 60px;
+    width: 45%;
+
+    margin-bottom: 80px;
+}
+
+.hero-section .hero-image {
+    background-image: url(./image/Header-Image.png);
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+    width: 55%;
+}
+
+.book-a-service button {
+    width: 220px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-family: poppins;
+    font-size: larger;
+    color: #fff;
+    background: #ff6433;
+    cursor: pointer;
+}
+
+.additional-info {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 100px;
+}
+
+.additional-info img {
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+}
+
+.info small {
+    color: #979797;
+}
+
+/* SECTION--2 STYLING */
+.section--2 {
+    background: #e2e6e9;
+    display: flex;
+    padding: 200px 0;
+}
+
+#sec--2 h2 {
+    font-size: 60px; 
+    font-weight: 600;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.services-flex {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.services-flex img {
+    margin-right: 10px;
+    width: 25px;
+}
+
+.services-flex h2 {
+    font-weight: 500;
+}
+
+.services-flex p {
+    color: rgb(94, 90, 90);
+}
+
+.know-more-flex {
+    display: flex;
+    gap: 20px;
+    margin-left: 35px;
+}
+
+.know-more-flex img {
+    width: 60px;
+    height: 25px;
+}
