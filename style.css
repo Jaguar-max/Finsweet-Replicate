@@ -98,16 +98,17 @@ body {
 
 /* SECTION--2 STYLING */
 .section--2 {
-    background: #e2e6e9;
+    /* background: #e2e6e9; */
     display: flex;
     padding: 200px 0;
 }
 
-#sec--2 h2 {
+#sec--2 h1 {
     font-size: 60px; 
-    font-weight: 600;
-    width: 50%;
+    font-weight: 500;
+    width: 90%;
     margin-bottom: 25px;
+    /* border: 2px solid red; */
 }
 
 .services-flex {
@@ -137,4 +138,34 @@ body {
 .know-more-flex img {
     width: 60px;
     height: 25px;
+}
+
+.input-area-sec-2 {
+    margin-right: 100px;
+}
+
+.sec--2 h1 {
+    font-size: 40px; 
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#input-sec-2 {
+    border: 1px solid black;
+    width: 425px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#sec-2-btn button {
+    margin-top: 70px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: large;
+    color: #fff;
+    background: #ff6433;
+    cursor: pointer;
 }
